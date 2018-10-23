@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/_Project1.dir/p1.cpp.o CMakeFiles/_Project1.dir/Matrix.cpp.o  -o _Project1 

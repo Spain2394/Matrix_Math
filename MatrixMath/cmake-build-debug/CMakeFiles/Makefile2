@@ -45,54 +45,54 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/E95563CF-C51C-417B-BFB4-56CF04C28693/d/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/B21F2B94-2781-458F-B2FE-A01C283873D0/d/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/E95563CF-C51C-417B-BFB4-56CF04C28693/d/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/B21F2B94-2781-458F-B2FE-A01C283873D0/d/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Allen/Desktop/Clion_WorkSpace/Project2
+CMAKE_SOURCE_DIR = /Users/Allen/Desktop/C_WorkSpace/Project1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Allen/Desktop/Clion_WorkSpace/Project2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Allen/Desktop/C_WorkSpace/Project1/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Project2.dir
+# Target rules for target CMakeFiles/_Project1.dir
 
 # All Build rule for target.
-CMakeFiles/Project2.dir/all:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/depend
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Allen/Desktop/Clion_WorkSpace/Project2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Project2"
-.PHONY : CMakeFiles/Project2.dir/all
+CMakeFiles/_Project1.dir/all:
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/depend
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Allen/Desktop/C_WorkSpace/Project1/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target _Project1"
+.PHONY : CMakeFiles/_Project1.dir/all
 
 # Include target in all.
-all: CMakeFiles/Project2.dir/all
+all: CMakeFiles/_Project1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Project2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Allen/Desktop/Clion_WorkSpace/Project2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Project2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Allen/Desktop/Clion_WorkSpace/Project2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Project2.dir/rule
+CMakeFiles/_Project1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Allen/Desktop/C_WorkSpace/Project1/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_Project1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Allen/Desktop/C_WorkSpace/Project1/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/_Project1.dir/rule
 
 # Convenience name for target.
-Project2: CMakeFiles/Project2.dir/rule
+_Project1: CMakeFiles/_Project1.dir/rule
 
-.PHONY : Project2
-
-# clean rule for target.
-CMakeFiles/Project2.dir/clean:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/clean
-.PHONY : CMakeFiles/Project2.dir/clean
+.PHONY : _Project1
 
 # clean rule for target.
-clean: CMakeFiles/Project2.dir/clean
+CMakeFiles/_Project1.dir/clean:
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/clean
+.PHONY : CMakeFiles/_Project1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_Project1.dir/clean
 
 .PHONY : clean
 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/E95563CF-C51C-417B-BFB4-56CF04C28693/d/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/B21F2B94-2781-458F-B2FE-A01C283873D0/d/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/E95563CF-C51C-417B-BFB4-56CF04C28693/d/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/B21F2B94-2781-458F-B2FE-A01C283873D0/d/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Allen/Desktop/Clion_WorkSpace/Project2
+CMAKE_SOURCE_DIR = /Users/Allen/Desktop/C_WorkSpace/Project1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Allen/Desktop/Clion_WorkSpace/Project2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Allen/Desktop/C_WorkSpace/Project1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/Allen/Desktop/Clion_WorkSpace/Project2/cmake-build-deb
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/E95563CF-C51C-417B-BFB4-56CF04C28693/d/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/B21F2B94-2781-458F-B2FE-A01C283873D0/d/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/E95563CF-C51C-417B-BFB4-56CF04C28693/d/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/sr/43y770h16n77_d6jr5ktfpp80000gn/T/AppTranslocation/B21F2B94-2781-458F-B2FE-A01C283873D0/d/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Allen/Desktop/Clion_WorkSpace/Project2/cmake-build-debug/CMakeFiles /Users/Allen/Desktop/Clion_WorkSpace/Project2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Allen/Desktop/C_WorkSpace/Project1/cmake-build-debug/CMakeFiles /Users/Allen/Desktop/C_WorkSpace/Project1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Allen/Desktop/Clion_WorkSpace/Project2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Allen/Desktop/C_WorkSpace/Project1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project2
+# Target rules for targets named _Project1
 
 # Build rule for target.
-Project2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Project2
-.PHONY : Project2
+_Project1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _Project1
+.PHONY : _Project1
 
 # fast build rule for target.
-Project2/fast:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/build
-.PHONY : Project2/fast
+_Project1/fast:
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/build
+.PHONY : _Project1/fast
 
-tail.o: tail.cpp.o
+Matrix.o: Matrix.cpp.o
 
-.PHONY : tail.o
+.PHONY : Matrix.o
 
 # target to build an object file
-tail.cpp.o:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/tail.cpp.o
-.PHONY : tail.cpp.o
+Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/Matrix.cpp.o
+.PHONY : Matrix.cpp.o
 
-tail.i: tail.cpp.i
+Matrix.i: Matrix.cpp.i
 
-.PHONY : tail.i
+.PHONY : Matrix.i
 
 # target to preprocess a source file
-tail.cpp.i:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/tail.cpp.i
-.PHONY : tail.cpp.i
+Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
 
-tail.s: tail.cpp.s
+Matrix.s: Matrix.cpp.s
 
-.PHONY : tail.s
+.PHONY : Matrix.s
 
 # target to generate assembly for a file
-tail.cpp.s:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/tail.cpp.s
-.PHONY : tail.cpp.s
+Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
+
+p1.o: p1.cpp.o
+
+.PHONY : p1.o
+
+# target to build an object file
+p1.cpp.o:
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/p1.cpp.o
+.PHONY : p1.cpp.o
+
+p1.i: p1.cpp.i
+
+.PHONY : p1.i
+
+# target to preprocess a source file
+p1.cpp.i:
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/p1.cpp.i
+.PHONY : p1.cpp.i
+
+p1.s: p1.cpp.s
+
+.PHONY : p1.s
+
+# target to generate assembly for a file
+p1.cpp.s:
+	$(MAKE) -f CMakeFiles/_Project1.dir/build.make CMakeFiles/_Project1.dir/p1.cpp.s
+.PHONY : p1.cpp.s
 
 # Help Target
 help:
@@ -158,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Project2"
-	@echo "... tail.o"
-	@echo "... tail.i"
-	@echo "... tail.s"
+	@echo "... _Project1"
+	@echo "... Matrix.o"
+	@echo "... Matrix.i"
+	@echo "... Matrix.s"
+	@echo "... p1.o"
+	@echo "... p1.i"
+	@echo "... p1.s"
 .PHONY : help
 
 
