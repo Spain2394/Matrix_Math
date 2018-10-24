@@ -1,6 +1,7 @@
 //
-// Created by Allen Spain 7/7/2017.
-//(811-565-587)
+// Created by Allen Spain 
+//  7/7/2017.
+//
 //
 #include "Matrix.h"
 
