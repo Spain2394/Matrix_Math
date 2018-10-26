@@ -1,3 +1,3 @@
 # Matrix_Math
-Matrix operation program 
+Matrix and Vector operations
 
